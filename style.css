@@ -5,6 +5,7 @@
    scrollbar-width: thin;
     scrollbar-color: #444 #1a1a1a
 }
+/*header*/
 header{
     display:flex;
     justify-content: center;
@@ -129,6 +130,7 @@ nav div{
         height: 1100px;
     }
 }
+/*main*/
 main{
     background-color: black;
    
@@ -295,6 +297,7 @@ main{
     height:60px;
 
 }
+/*footer*/
 footer{
     display:flex;
     justify-content: center;
