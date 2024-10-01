@@ -178,12 +178,33 @@ main{
 }
 .slide1{
    width: 100%;
-
+   padding-left: 30px;
+ 
 }
 .slide1 ul{
     display: flex;
     overflow-x: auto;
-    gap:30px;
+    gap:35px;
+}
+.mad{
+    border-radius:10px;
+    width:200px;
+    height:250px;
+    position: relative;
+    overflow: visible;
+}
+.numbers{
+    position: absolute;
+    left:-28px;
+    font-weight: 900;
+    font-size: 100px;
+    bottom:-13px;
+    color:black;
+     text-shadow: 
+    2px 2px 0 rgb(246, 244, 244),
+    -2px 2px 0 rgb(251, 244, 244), 
+    2px -2px 0 rgb(247, 242, 242), 
+    -2px -2px 0 rgb(249, 246, 246);;
 }
 
 .slide1 ul img{
@@ -198,7 +219,15 @@ main{
 @media screen and (max-width:1000px){
     .slide1 ul img{
         width:150px;
-        height:200px;;
+        height:200px;
+    }
+    .mad{
+        width:150px;
+        height:200px;
+    }
+    .numbers{
+        font-size: 85px;
+        bottom:-11px;
     }
     .slide1 ul img:hover{
         width:170px;
@@ -210,9 +239,17 @@ main{
         width:100px;
         height:130px;
     }
+    .mad{
+        width:100px;
+        height:130px;
+    }
     .slide1 ul img:hover{
         width:120px;
         height:170px;
+    }
+    .numbers{
+        font-size:70px;
+        bottom:-9px;
     }
 }
 .slide2{
