@@ -147,7 +147,6 @@ main{
 .seperation{
     width:100%;
     height:100px;
-
     overflow: hidden;
     max-width:1950px;
     position: relative;
@@ -162,12 +161,11 @@ main{
     position: relative;
     left:-63px;
     max-width:2014px;
-    border:2px solid rgb(16, 19, 215);
+    border:3px solid rgb(223, 12, 12);
     border-bottom: none;
 }
 .sub-div{
     width:100%;
-    height:2500pxpx;;
     position:relative;
     bottom:100px;
     max-width:1950px;
@@ -187,6 +185,7 @@ main{
     overflow-x: auto;
     gap:30px;
 }
+
 .slide1 ul img{
     border-radius:10px;
     width:200px;
