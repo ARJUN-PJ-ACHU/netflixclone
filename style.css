@@ -5,7 +5,7 @@
    scrollbar-width: thin;
     scrollbar-color: #444 #1a1a1a
 }
-/*header*/
+/*                                                        header                                                                         */
 header{
     display:flex;
     justify-content: center;
@@ -23,7 +23,7 @@ header{
     align-items: center;
     max-width:1950px;
     background-repeat:no-repeat;
-    width: 100%; /* Add this line to ensure the element respects the max-width */
+    width: 100%; 
 }
 .mab{
     width:100%;
@@ -130,7 +130,7 @@ nav div{
         height: 1100px;
     }
 }
-/*main*/
+/*                                                               main                                                                    */
 main{
     background-color: black;
    
@@ -297,7 +297,7 @@ main{
     height:60px;
 
 }
-/*footer*/
+/*                                                                   footer                                                                */
 footer{
     display:flex;
     justify-content: center;
