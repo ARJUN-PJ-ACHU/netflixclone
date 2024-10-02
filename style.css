@@ -46,6 +46,23 @@ nav{
 nav span img{
     width:200px;
 } 
+.eng{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    width:93px;
+    border: 0.5px solid white;
+    padding-left:5px;
+}
+.eng select{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.eng option{
+    color: black;
+}
+
 
 nav div{
     display: flex;
@@ -151,6 +168,8 @@ main{
     max-width:1950px;
     position: relative;
     bottom:50px;
+    z-index: 2;
+
 }
 .seperation :first-child{
     width:2300px;
@@ -179,19 +198,21 @@ main{
 .slide1{
    width: 100%;
    padding-left: 30px;
- 
+   height: auto;
 }
 .slide1 ul{
     display: flex;
-    overflow-x: auto;
+    overflow-x: scroll;
     gap:35px;
+    scrollbar-width: none;
+    overflow-y: hidden;
 }
+
 .mad{
     border-radius:10px;
     width:200px;
     height:250px;
     position: relative;
-    overflow: visible;
 }
 .numbers{
     position: absolute;
@@ -315,6 +336,11 @@ main{
         font-size:20px !important;
     }
 }
+.fra{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
 
 .faq{
     width:100%;
@@ -400,11 +426,7 @@ body{
     background-color: red;
     color: white;
 }
-.eng{
-    width:80px;
-    display:flex;
-    gap:5px;
-}
+
 .eng >:first-child{
    
     width:20px;
@@ -431,4 +453,11 @@ body{
   .slide2{
     margin-bottom: 300px;
   }
+}
+/*                                                  addon                                                                          */
+.si:hover{
+    background-color: rgba(255, 0, 0, 0.69);
+}
+.gs:hover{
+    background-color: rgba(255, 0, 0, 0.69);
 }
